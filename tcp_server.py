@@ -4,7 +4,7 @@ def start_server():
     #Create the server TCP socket
     server_port = 15000
     server_socket = socket(AF_INET, SOCK_STREAM)
-    server_socket.bind(('192.168.71.104', server_port))
+    server_socket.bind(('127.0.0.1', server_port))
     server_socket.listen(1)
     print("The server is ready to receive...")
     return server_socket
@@ -57,4 +57,5 @@ def main():
             break
 
 main()
+
 
