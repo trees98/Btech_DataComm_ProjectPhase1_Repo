@@ -29,7 +29,7 @@ def send_and_receive(client_socket):
         print("Please enter an int.")
 #Specify the server IP and port number and call functions
 def main():
-    server_name = '192.168.71.104'
+    server_name = '127.0.0.1' #Change to server IP
     server_port = 15000
 
     client_socket = connect_to_server(server_name, server_port)
@@ -40,4 +40,5 @@ def main():
             client_socket.close()
 
 main()
+
 
