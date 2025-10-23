@@ -1,6 +1,6 @@
 # Data Communications Project
 
-Simple UDP and TCP client-server programs for a Data Communications class.
+UDP and TCP client-server programs for Data Communications class.
 
 ## UDP
 
@@ -12,7 +12,7 @@ Simple UDP and TCP client-server programs for a Data Communications class.
 
 - Server: Checks if a received number is even or odd.
 - Client: Sends numbers and displays server’s response.
-- Server shuts down on "exit" command.
+- Server and client shuts down on "exit" command.
 
 ## How to run
 
