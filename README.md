@@ -6,7 +6,7 @@ UDP and TCP client-server programs for Data Communications class.
 
 - Server: Converts incoming messages to uppercase and sends back.
 - Client: Sends messages to server and shows responses.
-- Server shuts down on "shutdown" message or Ctrl+C.
+- Server shuts down on "shutdown" message from client or Ctrl+C.
 
 ## TCP
 
